@@ -1,0 +1,58 @@
+@import "../variables.scss";
+
+.storage-used{
+    max-width: 85%;
+    height: 150px;
+    margin: 5% auto;
+    margin-bottom: 0;
+    background-color: $Dark-Blue;
+    border-radius: 10px 10px 10px 10px;
+    font-family: $font-family-all;
+    font-size: $font-size-all;
+    color: $Pale-Blue;
+    p{
+        text-align: center;
+        padding-top: 8%;
+    }
+    .meter{
+        height: 20px;
+        position: relative;
+        background: $Very-Dark-Blue;
+        border-radius: 25px;
+        max-width: 80%;
+        margin: 0 auto;
+        .filler{
+            display: block;
+            position: relative;
+            top: 15%;
+            left: 1%;
+            height: 70%;
+            max-width: 81.5%;
+            background: #{$gradient};
+            border-radius: 30px;
+            .dot{
+                position: absolute;
+                top: 15%;
+                left: 94%;
+               display: block;
+               width: 5%;
+               height: 73%;
+               background-color:$Pale-Blue;
+               z-index: 10;
+               border-radius: 50%;
+            }
+        }
+    }
+    .range{
+        display: flex;
+        flex-flow: row;
+        max-width: 80%;
+        margin: 0 auto;
+        justify-content: space-between;
+        margin-top: 3%;
+        margin-bottom: 3%;
+        span{
+            font-weight: 700;
+        }
+    }
+}

@@ -1,0 +1,14 @@
+@import "variables.scss";
+@import "partials/header.scss";
+@import "partials/storage-used.scss";
+@import "partials/storage-left.scss";
+
+body{
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+    background: url("images/bg-mobile.svg") no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-color: $Dark-Blue;
+}   

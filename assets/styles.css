@@ -1,0 +1,125 @@
+.header {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  max-width: 85%;
+  margin: 0 auto;
+  margin-top: 20vw;
+  background-color: #24326b;
+  border-radius: 10px 110px 10px 10px;
+}
+.header .logo {
+  max-width: 45%;
+  margin: 12% 0 0 10%;
+}
+.header .options {
+  margin: 12% 0 12% 10%;
+  max-width: 58%;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+}
+.header .options div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  background-color: #141d48;
+  border-radius: 12px;
+}
+
+.storage-used {
+  max-width: 85%;
+  height: 150px;
+  margin: 5% auto;
+  margin-bottom: 0;
+  background-color: #24326b;
+  border-radius: 10px 10px 10px 10px;
+  font-family: "Raleway", sans-serif;
+  font-size: 14px;
+  color: #dddbff;
+}
+.storage-used p {
+  text-align: center;
+  padding-top: 8%;
+}
+.storage-used .meter {
+  height: 20px;
+  position: relative;
+  background: #141d48;
+  border-radius: 25px;
+  max-width: 80%;
+  margin: 0 auto;
+}
+.storage-used .meter .filler {
+  display: block;
+  position: relative;
+  top: 15%;
+  left: 1%;
+  height: 70%;
+  max-width: 81.5%;
+  background: linear-gradient(to right, hsl(6, 100%, 80%), hsl(335, 100%, 65%));
+  border-radius: 30px;
+}
+.storage-used .meter .filler .dot {
+  position: absolute;
+  top: 15%;
+  left: 94%;
+  display: block;
+  width: 5%;
+  height: 73%;
+  background-color: #dddbff;
+  z-index: 10;
+  border-radius: 50%;
+}
+.storage-used .range {
+  display: flex;
+  flex-flow: row;
+  max-width: 80%;
+  margin: 0 auto;
+  justify-content: space-between;
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+.storage-used .range span {
+  font-weight: 700;
+}
+
+.storage-left {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 0 auto;
+  margin-top: -25px;
+  margin-bottom: 100px;
+  background-color: #dddbff;
+  font-family: "Raleway", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  max-width: 40%;
+  height: 50px;
+  border-radius: 10px;
+}
+.storage-left .first {
+  color: Very-Dark-Blue;
+  font-size: 30px;
+}
+.storage-left .second {
+  color: #848794;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+body {
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+  background: url("images/bg-mobile.svg") no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-color: #24326b;
+}
+
+/*# sourceMappingURL=styles.css.map */

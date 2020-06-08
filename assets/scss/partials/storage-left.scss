@@ -1,0 +1,28 @@
+@import "../variables.scss";
+
+.storage-left{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    margin-top: -25px;
+    margin-bottom: 100px;
+    background-color: $Pale-Blue;
+    font-family: $font-family-all;
+    font-size: $font-size-all;
+    font-weight: 700;
+    max-width: 40%;
+    height: 50px;
+    border-radius: 10px;
+    
+    .first{
+        color: Very-Dark-Blue;
+        font-size: 30px;
+    }
+    .second{
+        color: $Grayis-Blue;
+        text-transform: uppercase;
+        font-size: 12px;
+        font-weight: 400;
+    }
+}
